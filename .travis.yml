@@ -1,0 +1,9 @@
+languahe: node_js
+node:
+ - node
+ - 8
+ services:
+  - mongodb
+ before_script:
+   - sleep 15
+ test: npm test
