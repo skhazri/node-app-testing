@@ -6,6 +6,6 @@ services:
   - mongodb
 before_script:
   - mongo books-test --eval 'db.createUser({user:"sarra",pwd:"sarra",roles:["readWrite"]});'
-  - mongo books-test --eval 'db.createCollection("books");
+  - mongo books-test --eval 'db.createCollection("books");'
   - sleep 15
 test: npm test
