@@ -3,7 +3,7 @@ let express = require('express'),
     morgan = require('morgan'),
     bodyParser = require('body-parser'),
     app = express(),
-    port = process.env.PORT = 3000,
+    port = process.env.PORT || 3000,
     config = require('config'),
     routes = require("./app/routes");
 
