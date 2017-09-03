@@ -1,3 +1,3 @@
 {
- "DB_URI" : "mongodb://sarra:sarra@localhost/books-test"
+ "DB_URI" : "mongodb://sarra:sarra@127.0.0.1:27017/books"
 }
